@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    background-color: #2c2c2e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 600px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 16px; 
+  }
+  
+  .settings-icon {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .summary div {
+    text-align: center; 
+  }
+  
+  .summary div p {
+    margin: 0;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .summary div h1 {
+    margin: 5px 0 0;
+    font-size: 24px; 
+  }
+  
+  .breakdown {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+
+  }
+
+  .breakdown canvas {
+    width:250px; 
+    height: 250px; 
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .chart-container {
+    max-width: 400px;
+  }
+  
+  .breakdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breakdown ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 12px; 
+    cursor: pointer;
+   
+  }
+  
+  .breakdown ul .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-left: 32px;
+   
+
+  }
+ .resetLi{
+  background-color: #4b4b6a;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: 32px;
+  margin-left: 32px;
+
+  margin-top: 32px;
+
+}
+.resetLi:hover {
+  background-color: #636394;
+}
+
+   .container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .button {
+    background-color: #4b4b6a;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button:hover {
+    background-color: #636394;
+  }
+
+  .button:disabled {
+    background-color: #9e9ea8;
+    cursor: not-allowed;
+  }
+
+  .calendar {
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #333;
+    outline: none;
+    font-family: Arial, sans-serif;
+  }
+
+  .calendar::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "active-win": "^9.0.0",
+    "electron": "^33.2.1",
+    "electron-active-window": "^0.0.6"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}

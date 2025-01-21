@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    background-color: #2c2c2e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 360px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 16px; 
+  }
+  
+  .settings-icon {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .summary div {
+    text-align: center; 
+  }
+  
+  .summary div p {
+    margin: 0;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .summary div h1 {
+    margin: 5px 0 0;
+    font-size: 24px; 
+  }
+  
+  .breakdown {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+  }
+
+  /* .dots-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(86%,-50%);
+  } */
+  
+  .breakdown canvas {
+    width: 200px; 
+    height: 200px; 
+  }
+
+  .chart-container {
+    max-width: 200px;
+  }
+  
+  .breakdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breakdown ul li {
+    display: flex;
+    align-items: center;  /* Align vertically in the center */
+    margin-bottom: 8px;
+    font-size: 12px;
+    justify-content: space-between; /* This ensures spacing between the dot and the time */
+  }
+  
+  .breakdown ul .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .breakdown ul .focus {
+    background-color: #00e3e6;
+  }
+  
+  .breakdown ul .meetings {
+    background-color: #9e87ff;
+  }
+  
+  .breakdown ul .breaks {
+    background-color: #ffc107;
+  }
+  
+  .breakdown ul .other {
+    background-color: #757575;
+  }
+  
+  .categories h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center; /* Center-align the top categories title */
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .categories ul .bar {
+    display: inline-block;
+    height: 6px;
+    border-radius: 4px;
+    margin-left: 10px;
+    flex: 1; /* Adjust the bar size based on the percentage */
+    background-color: #9e87ff;
+  }
+  
+  .categories ul li span {
+    min-width: 40px; /* Space for the percentage and category text */
+  }
+  
+  .categories ul li:nth-child(1) .bar {
+    background-color: #9e87ff; /* Uncategorized */
+  }
+  
+  .categories ul li:nth-child(2) .bar {
+    background-color: #ffc107; /* Code */
+  }
+  
+  .categories ul li:nth-child(3) .bar {
+    background-color: #00e3e6; /* Miscellaneous */
+  }
+  

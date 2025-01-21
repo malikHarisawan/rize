@@ -1,0 +1,838 @@
+{
+    "2024-12-30": {
+        "apps": {
+            "electron.exe": {
+                "time": 9604900,
+                "category": "Software Development"
+            },
+            "Code.exe": {
+                "time": 9990000,
+                "category": "Software Development"
+            },
+            "Spotify.exe": {
+                "time": 3279200,
+                "category": "Entertainment"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 4599001,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 22900098,
+                "category": "Miscellaneous"
+            },
+            "Skype.exe": {
+                "time": 49000003,
+                "category": "Communication"
+            },
+            "chrome.exe": {
+                "time": 3400006,
+                "category": "Reference & Learning"
+            }
+        }
+    },
+    "2024-12-31": {
+        "apps": {
+            "electron.exe": {
+                "time": 234678,
+                "category": "Software Development"
+            },
+            "chrome.exe": {
+                "time": 97389,
+                "category": "Reference & Learning"
+            },
+            "Code.exe": {
+                "time": 8002,
+                "category": "Software Development"
+            }
+        }
+    },
+    "2025-01-01": {
+        "apps": {
+            "electron.exe": {
+                "time": 849474,
+                "category": "Software Development"
+            },
+            "chrome.exe": {
+                "time": 7880,
+                "category": "Reference & Learning"
+            },
+            "Code.exe": {
+                "time": 311240,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 17262,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 257061,
+                "category": "Reference & Learning"
+            },
+            "stack overflow": {
+                "time": 3040,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 10605,
+                "category": "Reference & Learning"
+            },
+            "stackoverflow.com": {
+                "time": 14214,
+                "category": "Software Development"
+            },
+            "gemini.google.com": {
+                "time": 1963,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 18993,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-02": {
+        "apps": {
+            "electron.exe": {
+                "time": 9979540,
+                "category": "Software Development"
+            },
+            "chrome.exe": {
+                "time": 700880,
+                "category": "Reference & Learning"
+            },
+            "Code.exe": {
+                "time": 3773676,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 221839,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 1252025,
+                "category": "Reference & Learning"
+            },
+            "stack overflow": {
+                "time": 30400,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 1071206,
+                "category": "Reference & Learning"
+            },
+            "stackoverflow.com": {
+                "time": 160212,
+                "category": "Software Development"
+            },
+            "gemini.google.com": {
+                "time": 1963,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 18993,
+                "category": "Miscellaneous"
+            },
+            "SnippingTool.exe": {
+                "time": 9990,
+                "category": "Miscellaneous"
+            },
+            "`": {
+                "time": 1537,
+                "category": "Miscellaneous"
+            },
+            "8��;|": {
+                "time": 811,
+                "category": "Miscellaneous"
+            },
+            "��em~": {
+                "time": 81357,
+                "category": "Miscellaneous"
+            },
+            "\u0001": {
+                "time": 1034,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 3434110,
+                "category": "Miscellaneous"
+            },
+            "Photos.exe": {
+                "time": 86992,
+                "category": "Miscellaneous"
+            },
+            "RescueTime.exe": {
+                "time": 6835,
+                "category": "Miscellaneous"
+            },
+            "rescuetime.com": {
+                "time": 13539,
+                "category": "Miscellaneous"
+            },
+            "Rize.exe": {
+                "time": 20865,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 600,
+                "category": "Miscellaneous"
+            },
+            "Spotify.exe": {
+                "time": 72538,
+                "category": "Entertainment"
+            },
+            "Skype.exe": {
+                "time": 60000,
+                "category": "Communication"
+            },
+            "SearchHost.exe": {
+                "time": 1988,
+                "category": "Miscellaneous"
+            },
+            "Notepad.exe": {
+                "time": 12002,
+                "category": "Utilities"
+            },
+            "mail.google.com": {
+                "time": 27064,
+                "category": "Communication"
+            },
+            "rize.io": {
+                "time": 426121,
+                "category": "Miscellaneous"
+            },
+            "ac": {
+                "time": 2010,
+                "category": "Miscellaneous"
+            },
+            "a": {
+                "time": 1773,
+                "category": "Miscellaneous"
+            },
+            "activitywatch.net": {
+                "time": 49889,
+                "category": "Miscellaneous"
+            },
+            "docs.activitywatch.net": {
+                "time": 2128,
+                "category": "Miscellaneous"
+            },
+            "localhost:5600": {
+                "time": 120933,
+                "category": "Miscellaneous"
+            },
+            "vulms.vu.edu.pk": {
+                "time": 175095,
+                "category": "Reference & Learning"
+            },
+            "msedge.exe": {
+                "time": 849392,
+                "category": "Miscellaneous"
+            },
+            "WINWORD.EXE": {
+                "time": 429989,
+                "category": "Miscellaneous"
+            },
+            "youtube.com": {
+                "time": 257892,
+                "category": "Reference & Learning"
+            },
+            "ELEC": {
+                "time": 1145,
+                "category": "Miscellaneous"
+            },
+            "E": {
+                "time": 1078,
+                "category": "Miscellaneous"
+            },
+            "elect": {
+                "time": 1102,
+                "category": "Miscellaneous"
+            },
+            "electron p": {
+                "time": 998,
+                "category": "Miscellaneous"
+            },
+            "electron pi": {
+                "time": 934,
+                "category": "Miscellaneous"
+            },
+            "electron pop": {
+                "time": 1041,
+                "category": "Miscellaneous"
+            },
+            "electron pop u": {
+                "time": 1052,
+                "category": "Miscellaneous"
+            },
+            "i.sstatic.net": {
+                "time": 5580,
+                "category": "Miscellaneous"
+            },
+            "$": {
+                "time": 406,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-03": {
+        "apps": {
+            "electron.exe": {
+                "time": 10583259,
+                "category": "Software Development"
+            },
+            "chrome.exe": {
+                "time": 700880,
+                "category": "Reference & Learning"
+            },
+            "Code.exe": {
+                "time": 6741885,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 369703,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 2543941,
+                "category": "Reference & Learning"
+            },
+            "stack overflow": {
+                "time": 30400,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 1131380,
+                "category": "Reference & Learning"
+            },
+            "stackoverflow.com": {
+                "time": 160212,
+                "category": "Software Development"
+            },
+            "gemini.google.com": {
+                "time": 1963,
+                "category": "Miscellaneous"
+            },
+            "speedtest.net": {
+                "time": 46932,
+                "category": "Miscellaneous"
+            },
+            "btweb.rainberrytv.com": {
+                "time": 5891,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 7493197,
+                "category": "Miscellaneous"
+            },
+            "���W�": {
+                "time": 1008,
+                "category": "Miscellaneous"
+            },
+            "H��W�": {
+                "time": 4,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 1200568,
+                "category": "Miscellaneous"
+            },
+            "�ܿ�E": {
+                "time": 59380,
+                "category": "Miscellaneous"
+            },
+            "127.0.0.1:5500": {
+                "time": 105555,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-06": {
+        "apps": {
+            "electron.exe": {
+                "time": 2047598,
+                "category": "Software Development"
+            },
+            "Code.exe": {
+                "time": 4126335,
+                "category": "Software Development"
+            },
+            "Spotify.exe": {
+                "time": 82015,
+                "category": "Entertainment"
+            },
+            "Photos.exe": {
+                "time": 41990,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 210264,
+                "category": "Utilities"
+            },
+            "LinkedIn.exe": {
+                "time": 240016,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 239286,
+                "category": "Reference & Learning"
+            },
+            "linkedin.com": {
+                "time": 120066,
+                "category": "Miscellaneous"
+            },
+            "Skype.exe": {
+                "time": 111233,
+                "category": "Communication"
+            },
+            "github.com": {
+                "time": 69364,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 5083482,
+                "category": "Miscellaneous"
+            },
+            "����\u001f": {
+                "time": 236612,
+                "category": "Miscellaneous"
+            },
+            "narkins.com": {
+                "time": 298277,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 60008,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 304161,
+                "category": "Reference & Learning"
+            },
+            "��\u000e": {
+                "time": 19560,
+                "category": "Miscellaneous"
+            },
+            "S�ף\u001e�": {
+                "time": 438734,
+                "category": "Miscellaneous"
+            },
+            "\u0001�\u000e": {
+                "time": 999,
+                "category": "Miscellaneous"
+            },
+            "lawrencepur.com": {
+                "time": 60113,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-07": {
+        "apps": {
+            "electron.exe": {
+                "time": 1614537,
+                "category": "Software Development"
+            },
+            "Code.exe": {
+                "time": 1389017,
+                "category": "Software Development"
+            },
+            "Spotify.exe": {
+                "time": 112353,
+                "category": "Entertainment"
+            },
+            "d��\t": {
+                "time": 1011,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 4082,
+                "category": "Utilities"
+            },
+            "chatgpt.com": {
+                "time": 99828,
+                "category": "Reference & Learning"
+            }
+        }
+    },
+    "2025-01-08": {
+        "apps": {
+            "electron.exe": {
+                "time": 228929,
+                "category": "Software Development"
+            },
+            "Code.exe": {
+                "time": 273391,
+                "category": "Software Development"
+            },
+            "SearchHost.exe": {
+                "time": 997,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 788,
+                "category": "Utilities"
+            }
+        }
+    },
+    "2025-01-10": {
+        "apps": {
+            "electron.exe": {
+                "time": 430327,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 52657,
+                "category": "Utilities"
+            },
+            "ShellExperienceHost.exe": {
+                "time": 18006,
+                "category": "Miscellaneous"
+            },
+            "Code.exe": {
+                "time": 249417,
+                "category": "Software Development"
+            },
+            "undefined": {
+                "time": 950364,
+                "category": "Miscellaneous"
+            },
+            "Skype.exe": {
+                "time": 82089,
+                "category": "Communication"
+            },
+            "Spotify.exe": {
+                "time": 20997,
+                "category": "Entertainment"
+            },
+            "Notion.exe": {
+                "time": 29982,
+                "category": "Miscellaneous"
+            },
+            "Notion Setup 4.3.0.exe": {
+                "time": 2988,
+                "category": "Miscellaneous"
+            },
+            "0�D�r\u0002": {
+                "time": 1009,
+                "category": "Miscellaneous"
+            },
+            "��?��": {
+                "time": 6002,
+                "category": "Miscellaneous"
+            },
+            "�": {
+                "time": 1000,
+                "category": "Miscellaneous"
+            },
+            "\n": {
+                "time": 3019,
+                "category": "Miscellaneous"
+            },
+            "e�����": {
+                "time": 1987,
+                "category": "Miscellaneous"
+            },
+            "\u0006": {
+                "time": 998,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-13": {
+        "apps": {
+            "electron.exe": {
+                "time": 711466,
+                "category": "Software Development"
+            },
+            "Skype.exe": {
+                "time": 283693,
+                "category": "Communication"
+            },
+            "explorer.exe": {
+                "time": 90926,
+                "category": "Utilities"
+            },
+            "SnippingTool.exe": {
+                "time": 4983,
+                "category": "Miscellaneous"
+            },
+            "Code.exe": {
+                "time": 143571,
+                "category": "Software Development"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 6002,
+                "category": "Miscellaneous"
+            },
+            "Electr": {
+                "time": 2006,
+                "category": "Miscellaneous"
+            },
+            "chat.mistral.ai": {
+                "time": 59585,
+                "category": "Miscellaneous"
+            },
+            "Spotify.exe": {
+                "time": 35036,
+                "category": "Entertainment"
+            },
+            "Rize.exe": {
+                "time": 9003,
+                "category": "Miscellaneous"
+            },
+            "\u0001": {
+                "time": 1019,
+                "category": "Miscellaneous"
+            },
+            "vulms.vu.edu.pk": {
+                "time": 1524,
+                "category": "Reference & Learning"
+            },
+            "youtube.com": {
+                "time": 12280,
+                "category": "Reference & Learning"
+            },
+            "mail.google.com": {
+                "time": 30354,
+                "category": "Communication"
+            },
+            "idea64.exe": {
+                "time": 4552,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-14": {
+        "apps": {
+            "electron.exe": {
+                "time": 177801,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 27243,
+                "category": "Utilities"
+            },
+            "Skype.exe": {
+                "time": 95352,
+                "category": "Communication"
+            },
+            "Code.exe": {
+                "time": 37638,
+                "category": "Software Development"
+            },
+            "ho ": {
+                "time": 1850,
+                "category": "Miscellaneous"
+            },
+            "how c": {
+                "time": 1799,
+                "category": "Miscellaneous"
+            },
+            "how can i c": {
+                "time": 1950,
+                "category": "Miscellaneous"
+            },
+            "how can i close the ": {
+                "time": 1990,
+                "category": "Miscellaneous"
+            },
+            "how can i close the tab of ": {
+                "time": 1996,
+                "category": "Miscellaneous"
+            },
+            "how can i close the tab of chrome ": {
+                "time": 1944,
+                "category": "Miscellaneous"
+            },
+            "how can i close the tab of chrome in j": {
+                "time": 2069,
+                "category": "Miscellaneous"
+            },
+            "how can i close the tab of chrome in javascript search suggestion, 2 of 4": {
+                "time": 1999,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 54004,
+                "category": "Reference & Learning"
+            },
+            "geeksforgeeks.org": {
+                "time": 20299,
+                "category": "Miscellaneous"
+            },
+            "stackoverflow.com": {
+                "time": 87967,
+                "category": "Software Development"
+            },
+            "mail.google.com": {
+                "time": 6747,
+                "category": "Communication"
+            },
+            "youtube.com": {
+                "time": 88665,
+                "category": "Reference & Learning"
+            },
+            "chatgpt.com": {
+                "time": 13634,
+                "category": "Reference & Learning"
+            },
+            "Rize.exe": {
+                "time": 2890,
+                "category": "Miscellaneous"
+            },
+            "chat.openai.com": {
+                "time": 1830,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-16": {
+        "apps": {
+            "electron.exe": {
+                "time": 463807,
+                "category": "Software Development"
+            },
+            "mail.google.com": {
+                "time": 9685,
+                "category": "Communication"
+            },
+            "Skype.exe": {
+                "time": 495856,
+                "category": "Communication"
+            },
+            "Spotify.exe": {
+                "time": 10003,
+                "category": "Entertainment"
+            },
+            "chatgpt.com": {
+                "time": 19777,
+                "category": "Reference & Learning"
+            },
+            "explorer.exe": {
+                "time": 1257,
+                "category": "Utilities"
+            },
+            "Code.exe": {
+                "time": 14574,
+                "category": "Software Development"
+            }
+        }
+    },
+    "2025-01-20": {
+        "apps": {
+            "explorer.exe": {
+                "time": 2984,
+                "category": "Utilities"
+            },
+            "Skype.exe": {
+                "time": 199409,
+                "category": "Communication"
+            },
+            "electron.exe": {
+                "time": 2191029,
+                "category": "Software Development"
+            },
+            "Spotify.exe": {
+                "time": 2997,
+                "category": "Entertainment"
+            },
+            "\u0001": {
+                "time": 53393,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 599998,
+                "category": "Miscellaneous"
+            },
+            "���\u0014�": {
+                "time": 104676,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 19306,
+                "category": "Reference & Learning"
+            },
+            "Code.exe": {
+                "time": 158973,
+                "category": "Software Development"
+            }
+        }
+    },
+    "2025-01-21": {
+        "apps": {
+            "Skype.exe": {
+                "time": 105666,
+                "category": "Communication"
+            },
+            "Code.exe": {
+                "time": 2075806,
+                "category": "Software Development"
+            },
+            "electron.exe": {
+                "time": 55548,
+                "category": "Software Development"
+            },
+            "dr nouman iec": {
+                "time": 5038,
+                "category": "Miscellaneous"
+            },
+            "dr nouman IEC": {
+                "time": 4932,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 634127,
+                "category": "Reference & Learning"
+            },
+            "linkedin.com": {
+                "time": 197785,
+                "category": "Miscellaneous"
+            },
+            "���g&": {
+                "time": 30881,
+                "category": "Miscellaneous"
+            },
+            "islamabadeyecenter.com": {
+                "time": 240656,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 60452,
+                "category": "Miscellaneous"
+            },
+            "oladoc.com": {
+                "time": 59242,
+                "category": "Miscellaneous"
+            },
+            "scleral lenses insertion": {
+                "time": 59575,
+                "category": "Miscellaneous"
+            },
+            "kcpakistan.com": {
+                "time": 239982,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 1269756,
+                "category": "Miscellaneous"
+            },
+            "PickerHost.exe": {
+                "time": 61042,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 119853,
+                "category": "Reference & Learning"
+            },
+            "facebook.com": {
+                "time": 59967,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 3479992,
+                "category": "Miscellaneous"
+            }
+        }
+    }
+}
