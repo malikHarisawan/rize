@@ -48,10 +48,11 @@ function generateDatasets(categoriesData) {
 
   for (const [category, entries] of Object.entries(categoriesData)) {
 
+    const filterdApps = entries.filter(ent => ent.time > 2 * 6000)
     datasets[category] = {
-      labels: entries.map(ent => ent.app),
-      data: entries.map(ent => Math.floor(ent.time / 60000)),
-      colors: entries.map((_, index) => colorsPalette[index % colorsPalette.length])
+      labels: filterdApps.map(ent => ent.app),
+      data: filterdApps.map(ent => Math.floor(ent.time / 60000)),
+      colors: filterdApps.map((_, index) => colorsPalette[index % colorsPalette.length])
 
     }
 
@@ -79,6 +80,19 @@ function drawNoDataMessage(ctx) {
     ctx.canvas.width / 2, 
     ctx.canvas.height/ 2);
 }
+function filterCategoriesByTime(data) {
+  const filteredData = {};
+
+  for (const [category, entries] of Object.entries(data)) {
+    const totalTime = entries.reduce((sum, entry) => sum + entry.time, 0);
+
+    if (totalTime > 2 * 60000) {
+      filteredData[category] = entries;
+    }
+  }
+
+  return filteredData;
+}
 async function updateWindowInfo() {
 
   try {
@@ -99,9 +113,11 @@ async function updateWindowInfo() {
       return;
     }
 
-    let chartDatasets = generateDatasets(categoriesData);
     
-    console.log("dataset ====>", chartDatasets)
+    let data = filterCategoriesByTime(categoriesData)
+    let chartDatasets = generateDatasets(data);
+    
+    console.log("categoriesData === ", chartDatasets)
     const totalMilliseconds = Object.values(info).reduce((a, b) => a + b, 0);
     const totalMinutes = Math.floor(totalMilliseconds / 60000);
 
@@ -112,7 +128,7 @@ async function updateWindowInfo() {
 
     Object.keys(info).forEach((category, index) => {
       const minutes = Math.floor((info[category] || 0) / 60000);
-      if (minutes > 0) {
+      if (minutes > 0 && chartDatasets.initial.labels.includes(category)) {
         const li = document.createElement("li");
         const dotColor = categoryColors[category] || "#000000";
 
@@ -161,9 +177,11 @@ async function updateWindowInfo() {
         },
         options: {
           responsive: true,
+         
           plugins: {
             legend: {
-              display: false
+              display: false,
+              
             },
             tooltip: {
               callbacks: {

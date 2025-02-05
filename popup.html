@@ -14,7 +14,8 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: #121212;
+            background: #242b3af0;
+           
             color: #ffffff;
             font-family: "Arial", sans-serif;
             overflow: hidden;
@@ -122,10 +123,11 @@
         });
 
         reminderButton.addEventListener('click', () => {
+            console.log("cooool downnnnnnn")
             ipcRenderer.send('cooldown');
         });
 
-        let timeLeft = 5;
+        let timeLeft = 3;
         const countdownTimer = setInterval(() => {
             if (timeLeft <= 0) {
                 clearInterval(countdownTimer);
@@ -138,6 +140,7 @@
         }, 1000);
 
         dismiss.addEventListener('click',()=>{
+            console.log("dismess clicked")
             ipcRenderer.send('dismiss', appName); 
         })
     </script>

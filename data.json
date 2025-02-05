@@ -766,11 +766,11 @@
                 "category": "Communication"
             },
             "Code.exe": {
-                "time": 2075806,
+                "time": 2105804,
                 "category": "Software Development"
             },
             "electron.exe": {
-                "time": 55548,
+                "time": 127531,
                 "category": "Software Development"
             },
             "dr nouman iec": {
@@ -822,7 +822,7 @@
                 "category": "Miscellaneous"
             },
             "chatgpt.com": {
-                "time": 119853,
+                "time": 124899,
                 "category": "Reference & Learning"
             },
             "facebook.com": {
@@ -831,6 +831,734 @@
             },
             "LockApp.exe": {
                 "time": 3479992,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-22": {
+        "apps": {
+            "electron.exe": {
+                "time": 174971,
+                "category": "Software Development"
+            }
+        }
+    },
+    "2025-01-27": {
+        "apps": {
+            "electron.exe": {
+                "time": 68875,
+                "category": "Software Development"
+            },
+            "Skype.exe": {
+                "time": 105015,
+                "category": "Communication"
+            },
+            "Code.exe": {
+                "time": 204643,
+                "category": "Software Development"
+            },
+            "chatgpt.com": {
+                "time": 35152,
+                "category": "Reference & Learning"
+            },
+            "explorer.exe": {
+                "time": 126147,
+                "category": "Utilities"
+            },
+            "chat.mistral.ai": {
+                "time": 279026,
+                "category": "Miscellaneous"
+            },
+            "Spotify.exe": {
+                "time": 61323,
+                "category": "Entertainment"
+            },
+            "undefined": {
+                "time": 964528,
+                "category": "Miscellaneous"
+            },
+            "SearchHost.exe": {
+                "time": 66374,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-28": {
+        "apps": {
+            "electron.exe": {
+                "time": 216532,
+                "category": "Software Development"
+            },
+            "chatgpt.com": {
+                "time": 76531,
+                "category": "Reference & Learning"
+            },
+            "Skype.exe": {
+                "time": 44997,
+                "category": "Communication"
+            },
+            "Code.exe": {
+                "time": 1086306,
+                "category": "Software Development"
+            },
+            "LockApp.exe": {
+                "time": 3070007,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 97263,
+                "category": "Utilities"
+            },
+            "electronjs.org": {
+                "time": 6672,
+                "category": "Miscellaneous"
+            },
+            "Microsoft.SkypeApp_15.112.3\u0014\u0006T": {
+                "time": 5007,
+                "category": "Miscellaneous"
+            },
+            "te": {
+                "time": 4494,
+                "category": "Miscellaneous"
+            },
+            "tech world with ": {
+                "time": 4870,
+                "category": "Miscellaneous"
+            },
+            "tech world with nana": {
+                "time": 15030,
+                "category": "Miscellaneous"
+            },
+            "tech world with nana devops": {
+                "time": 4960,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 5222,
+                "category": "Reference & Learning"
+            },
+            "reddit.com": {
+                "time": 460633,
+                "category": "Miscellaneous"
+            },
+            "Rize.exe": {
+                "time": 11292,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 625045,
+                "category": "Miscellaneous"
+            },
+            "X��6": {
+                "time": 4990,
+                "category": "Miscellaneous"
+            },
+            "vlc.exe": {
+                "time": 1054733,
+                "category": "Miscellaneous"
+            },
+            "\u001e�@U��": {
+                "time": 9996,
+                "category": "Miscellaneous"
+            },
+            "����������������@�\u0007": {
+                "time": 10009,
+                "category": "Miscellaneous"
+            },
+            "chat.deepseek.com": {
+                "time": 24991,
+                "category": "Miscellaneous"
+            },
+            "WindowsTerminal.exe": {
+                "time": 205010,
+                "category": "Software Development"
+            }
+        }
+    },
+    "2025-01-30": {
+        "apps": {
+            "1989": {
+                "time": 5051,
+                "category": "Miscellaneous"
+            },
+            "Spotify.exe": {
+                "time": 19981,
+                "category": "Entertainment"
+            },
+            "Code.exe": {
+                "time": 2242528,
+                "category": "Software Development"
+            },
+            "electron.exe": {
+                "time": 37361,
+                "category": "Software Development"
+            },
+            "chatgpt.com": {
+                "time": 464320,
+                "category": "Reference & Learning"
+            },
+            "chat.deepseek.com": {
+                "time": 1577166,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 4046726,
+                "category": "Miscellaneous"
+            },
+            "\b�_p\u000f": {
+                "time": 9988,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 530402,
+                "category": "Utilities"
+            },
+            "mail.google.com": {
+                "time": 139608,
+                "category": "Communication"
+            },
+            "linkedin.com": {
+                "time": 205123,
+                "category": "Miscellaneous"
+            },
+            "Rize.exe": {
+                "time": 6130,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 17616087,
+                "category": "Miscellaneous"
+            },
+            "����\u0007�": {
+                "time": 31358,
+                "category": "Miscellaneous"
+            },
+            "�\u000e": {
+                "time": 138646,
+                "category": "Miscellaneous"
+            },
+            "ShellHost.exe": {
+                "time": 35917,
+                "category": "Miscellaneous"
+            },
+            "ShellExperienceHost.exe": {
+                "time": 361378,
+                "category": "Miscellaneous"
+            },
+            "`�\u000e": {
+                "time": 10005,
+                "category": "Miscellaneous"
+            },
+            "8�\u0007": {
+                "time": 34997,
+                "category": "Miscellaneous"
+            },
+            "\u0010�_p\u000f": {
+                "time": 5002,
+                "category": "Miscellaneous"
+            },
+            "!": {
+                "time": 10002,
+                "category": "Miscellaneous"
+            },
+            "��\n": {
+                "time": 1598167,
+                "category": "Miscellaneous"
+            },
+            " �_p\u000f": {
+                "time": 54998,
+                "category": "Miscellaneous"
+            },
+            "\u0018�_p\u000f": {
+                "time": 9998,
+                "category": "Miscellaneous"
+            },
+            "msedge.exe": {
+                "time": 21242,
+                "category": "Miscellaneous"
+            },
+            "Skype.exe": {
+                "time": 153995,
+                "category": "Communication"
+            },
+            "f-10 ": {
+                "time": 2918,
+                "category": "Miscellaneous"
+            },
+            "f-10 g": {
+                "time": 4936,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 67912,
+                "category": "Reference & Learning"
+            },
+            "instagram.com": {
+                "time": 74709,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 4990,
+                "category": "Miscellaneous"
+            },
+            "127.0.0.1:8000": {
+                "time": 4994,
+                "category": "Miscellaneous"
+            },
+            "about:blank": {
+                "time": 74,
+                "category": "Miscellaneous"
+            },
+            "6�0\u0006": {
+                "time": 1161,
+                "category": "Miscellaneous"
+            },
+            "SearchHost.exe": {
+                "time": 13240,
+                "category": "Miscellaneous"
+            },
+            "Lo�\b'": {
+                "time": 11431,
+                "category": "Miscellaneous"
+            },
+            "�{U\u0006": {
+                "time": 1125,
+                "category": "Miscellaneous"
+            },
+            "Lo��0": {
+                "time": 6723,
+                "category": "Miscellaneous"
+            },
+            "�Bw\u0006": {
+                "time": 1024,
+                "category": "Miscellaneous"
+            },
+            "�:y\u0006": {
+                "time": 5006,
+                "category": "Miscellaneous"
+            },
+            "��%": {
+                "time": 5003,
+                "category": "Miscellaneous"
+            },
+            "LoԵ\u0007": {
+                "time": 4992,
+                "category": "Miscellaneous"
+            },
+            "Loл\u0007": {
+                "time": 11180,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-01-31": {
+        "apps": {
+            "electron.exe": {
+                "time": 393110,
+                "category": "Software Development"
+            },
+            "Photos.exe": {
+                "time": 374993,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 698753,
+                "category": "Utilities"
+            },
+            "SearchHost.exe": {
+                "time": 5000,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 510023,
+                "category": "Miscellaneous"
+            },
+            "Code.exe": {
+                "time": 1409336,
+                "category": "Software Development"
+            },
+            "PickerHost.exe": {
+                "time": 5000,
+                "category": "Miscellaneous"
+            },
+            "Rize.exe": {
+                "time": 287653,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 58608,
+                "category": "Miscellaneous"
+            },
+            "youtube.com": {
+                "time": 48831,
+                "category": "Reference & Learning"
+            },
+            "LockApp.exe": {
+                "time": 420011,
+                "category": "Miscellaneous"
+            },
+            "chatgpt.com": {
+                "time": 269883,
+                "category": "Reference & Learning"
+            }
+        }
+    },
+    "2025-02-03": {
+        "apps": {
+            "Skype.exe": {
+                "time": 2740,
+                "category": "Communication"
+            },
+            "chatgpt.com": {
+                "time": 259744,
+                "category": "Reference & Learning"
+            },
+            "electron.exe": {
+                "time": 477223,
+                "category": "Software Development"
+            },
+            "w": {
+                "time": 9967,
+                "category": "Miscellaneous"
+            },
+            "what is the best ": {
+                "time": 9945,
+                "category": "Miscellaneous"
+            },
+            "Code.exe": {
+                "time": 991719,
+                "category": "Software Development"
+            },
+            "Spotify.exe": {
+                "time": 39989,
+                "category": "Entertainment"
+            },
+            "explorer.exe": {
+                "time": 139995,
+                "category": "Utilities"
+            },
+            "ShellHost.exe": {
+                "time": 32519,
+                "category": "Miscellaneous"
+            },
+            "speedtest.net": {
+                "time": 29688,
+                "category": "Miscellaneous"
+            },
+            "mail.google.com": {
+                "time": 79960,
+                "category": "Communication"
+            }
+        }
+    },
+    "2025-02-04": {
+        "apps": {
+            "vlc.exe": {
+                "time": 461977,
+                "category": "Miscellaneous"
+            },
+            "Skype.exe": {
+                "time": 523437,
+                "category": "Communication"
+            },
+            "chat.deepseek.com": {
+                "time": 1098130,
+                "category": "Miscellaneous"
+            },
+            "Code.exe": {
+                "time": 3991339,
+                "category": "Software Development"
+            },
+            "electron.exe": {
+                "time": 1002044,
+                "category": "Software Development"
+            },
+            "Rize.exe": {
+                "time": 303986,
+                "category": "Miscellaneous"
+            },
+            "Spotify.exe": {
+                "time": 7000001,
+                "category": "Entertainment"
+            },
+            "SearchHost.exe": {
+                "time": 16220,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 2035118,
+                "category": "Miscellaneous"
+            },
+            "explorer.exe": {
+                "time": 661970,
+                "category": "Utilities"
+            },
+            "Photos.exe": {
+                "time": 19979,
+                "category": "Miscellaneous"
+            },
+            "LockApp.exe": {
+                "time": 6542792,
+                "category": "Miscellaneous"
+            },
+            "�@�E�": {
+                "time": 31825,
+                "category": "Miscellaneous"
+            },
+            "��\n": {
+                "time": 10010,
+                "category": "Miscellaneous"
+            },
+            "youtube.com": {
+                "time": 844712,
+                "category": "Reference & Learning"
+            },
+            "chatgpt.com": {
+                "time": 859390,
+                "category": "Reference & Learning"
+            },
+            "Notion.exe": {
+                "time": 9989,
+                "category": "Miscellaneous"
+            },
+            "ApplicationFrameHost.exe": {
+                "time": 59995,
+                "category": "Miscellaneous"
+            },
+            "amanathospital.com": {
+                "time": 60176,
+                "category": "Miscellaneous"
+            },
+            "WINWORD.EXE": {
+                "time": 246573,
+                "category": "Miscellaneous"
+            },
+            "ivarclothing.com": {
+                "time": 176325,
+                "category": "Miscellaneous"
+            },
+            "google.com": {
+                "time": 180336,
+                "category": "Reference & Learning"
+            },
+            "reddit.com": {
+                "time": 60285,
+                "category": "Miscellaneous"
+            },
+            "fittedshop.com": {
+                "time": 120303,
+                "category": "Miscellaneous"
+            },
+            "medium.com": {
+                "time": 179629,
+                "category": "Miscellaneous"
+            },
+            "huyenchip.com": {
+                "time": 599643,
+                "category": "Miscellaneous"
+            },
+            "google.com.pk": {
+                "time": 59809,
+                "category": "Miscellaneous"
+            },
+            "linkedin.com": {
+                "time": 119601,
+                "category": "Miscellaneous"
+            },
+            "learn.microsoft.com": {
+                "time": 839922,
+                "category": "Miscellaneous"
+            },
+            "manning.com": {
+                "time": 59749,
+                "category": "Miscellaneous"
+            }
+        }
+    },
+    "2025-02-05": {
+        "apps": {
+            "electron.exe": {
+                "time": 468086,
+                "category": "Software Development"
+            },
+            "explorer.exe": {
+                "time": 182555,
+                "category": "Utilities"
+            },
+            "Skype.exe": {
+                "time": 19997,
+                "category": "Communication"
+            },
+            "Code.exe": {
+                "time": 2813961,
+                "category": "Software Development"
+            },
+            "LockApp.exe": {
+                "time": 669995,
+                "category": "Miscellaneous"
+            },
+            "undefined": {
+                "time": 99340,
+                "category": "Entertainment"
+            },
+            "Rize.exe": {
+                "time": 31601,
+                "category": "Miscellaneous"
+            },
+            "(1) The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU - YouTube - Google Chrome": {
+                "time": 50010,
+                "category": "Research & Learning"
+            },
+            "(1) How to Get Your Brain to Focus | Chris Bailey | TEDxManchester - YouTube - Google Chrome": {
+                "time": 28718,
+                "category": "Entertainment"
+            },
+            "YouTube": {
+                "time": 3220,
+                "category": "Entertainment"
+            },
+            "YouTube - (1) 70 People Ages 5-75 Answer: What's Your Biggest Regret? | Glamour - YouTube": {
+                "time": 158805,
+                "category": "Entertainment"
+            },
+            "medium devops - Google Search - Google Chrome": {
+                "time": 8705,
+                "category": "Entertainment"
+            },
+            "Inside the World of DevOps: What are DevOps? | by Trienpont International | Medium - Google Chrome": {
+                "time": 556284,
+                "category": "Entertainment"
+            },
+            "ChatGPT - Google Chrome": {
+                "time": 59961,
+                "category": "Entertainment"
+            },
+            "Docker OS Support - Google Chrome": {
+                "time": 188820,
+                "category": "Entertainment"
+            },
+            "Jeff Bezos's Morning Routine Is the Opposite of Most Productivity Advice. Maybe Yours Should Be Too - Google Chrome": {
+                "time": 300048,
+                "category": "Entertainment"
+            },
+            "(1) Amazon's Bezos Says Three Good Decisions a Day 'Enough' - YouTube - Google Chrome": {
+                "time": 119935,
+                "category": "Entertainment"
+            },
+            "(1) YouTube - Google Chrome": {
+                "time": 59969,
+                "category": "Entertainment"
+            },
+            "Medium - Google Chrome": {
+                "time": 10301,
+                "category": "Entertainment",
+                "domain": "medium.com"
+            },
+            "JP Morgan Java Developer Interview | by Shivam Srivastava | Coding Odyssey | Jan, 2025 | Medium - Google Chrome": {
+                "time": 147180,
+                "category": "Entertainment",
+                "domain": null
+            },
+            "\u0001": {
+                "time": 10007,
+                "category": "Miscellaneous"
+            },
+            "Open Source AI Stack - Google Chrome": {
+                "time": 29963,
+                "category": "Entertainment",
+                "domain": "chatgpt.com"
+            },
+            "New Tab - Google Chrome": {
+                "time": 37871,
+                "category": "Entertainment",
+                "domain": null
+            },
+            "Le Chat - Mistral AI - Google Chrome": {
+                "time": 417463,
+                "category": "Entertainment",
+                "domain": "chat.mistral.ai"
+            },
+            "BitTorrent Web - Google Chrome": {
+                "time": 36132,
+                "category": "Miscellaneous",
+                "domain": "btweb.rainberrytv.com"
+            },
+            "Standard Chartered Message: Transaction in account - malikharisawan06@gmail.com - Gmail - Google Chrome": {
+                "time": 10026,
+                "category": "Communication",
+                "domain": "mail.google.com"
+            },
+            "Will tech jobs come back?  - malikharisawan06@gmail.com - Gmail - Google Chrome": {
+                "time": 9790,
+                "category": "Miscellaneous",
+                "domain": "mail.google.com"
+            },
+            "“devops engineer”: ID-ware - DevOps Engineer and more - malikharisawan06@gmail.com - Gmail - Google Chrome": {
+                "time": 10112,
+                "category": "Software Development",
+                "domain": "linkedin.com"
+            },
+            "(2) Senior DevOps Engineer | tapmad | LinkedIn - Google Chrome": {
+                "time": 79926,
+                "category": "Software Development",
+                "domain": "linkedin.com"
+            },
+            "(2) tapmad: Overview | LinkedIn - Google Chrome": {
+                "time": 20043,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "(2) tapmad: People | LinkedIn - Google Chrome": {
+                "time": 10358,
+                "category": "Miscellaneous",
+                "domain": "undefined"
+            },
+            "(2) Obaid ur Rehman | LinkedIn - Google Chrome": {
+                "time": 80120,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "(2) Post | Feed | LinkedIn - Google Chrome": {
+                "time": 79972,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "(2) Licenses & certifications | Obaid ur Rehman | LinkedIn - Google Chrome": {
+                "time": 40176,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "Pakistan Engineering Council - PEC - Google Chrome": {
+                "time": 9313,
+                "category": "Software Development",
+                "domain": "linkedin.com"
+            },
+            "(3) Licenses & certifications | Obaid ur Rehman | LinkedIn - Google Chrome": {
+                "time": 9978,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "(3) Obaid ur Rehman | LinkedIn - Google Chrome": {
+                "time": 10298,
+                "category": "Miscellaneous",
+                "domain": "linkedin.com"
+            },
+            "Feed | LinkedIn - Google Chrome": {
+                "time": 8644,
+                "category": "Miscellaneous",
+                "domain": null
+            },
+            "Assembly Language Concepts - Google Chrome": {
+                "time": 1056727,
+                "category": "Miscellaneous",
+                "domain": "chatgpt.com"
+            },
+            "ShellExperienceHost.exe": {
+                "time": 10008,
+                "category": "Miscellaneous"
+            },
+            "msedge.exe": {
+                "time": 21121,
                 "category": "Miscellaneous"
             }
         }

@@ -4,10 +4,11 @@ const fs = require('fs');
 const APP_CATEGORIES = require('./categories.js');
 const { spawn } = require('child_process');
 
+
 let appUsageData = {};
 let lastActiveApp = null;
 let lastUpdateTime = Date.now();
-let lastDismissedTime = 0;
+
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 const month = String(currentDate.getMonth() + 1).padStart(2, '0');
@@ -16,6 +17,9 @@ const formattedDate = `${year}-${month}-${day}`;
 loadData();
 let isCoolDown = false
 Distracted_apps = ['Notion.exe', 'Spotify.exe', 'Skype.exe', "mail.google.com", "youtube.com", "chatgpt.com"]
+
+
+
 
 async function getActiveChromeTab(pid) {
     if (!pid) {
@@ -54,14 +58,15 @@ async function getActiveChromeTab(pid) {
 
 async function updateAppUsage() {
     try {
-        const currentWindow = await get_Active_Window();
+
+        const currentWindow = await activeWindows().getActiveWindow();
         const pid = await getChromePid();
         let active_url = null;
+
+
         if (pid) {
             const chromeTabInfo = await getActiveChromeTab(pid);
-
             active_url = String(chromeTabInfo.active_app);
-
         }
         const currentTime = Date.now();
 
@@ -91,14 +96,20 @@ async function updateAppUsage() {
                 }
                 appUsageData[formattedDate].apps[lastActiveApp.windowClass].time += timeSpent;
             }
-            if (lastActiveApp.windowClass == "chrome.exe" && active_url) {
-                if (!appUsageData[formattedDate].apps.hasOwnProperty(active_url)) {
-                    appUsageData[formattedDate].apps[active_url] = {
+            if (lastActiveApp.windowClass == "chrome.exe") {
+
+
+                if (!appUsageData[formattedDate].apps.hasOwnProperty(lastActiveApp.windowName)) {
+
+                    appUsageData[formattedDate].apps[lastActiveApp.windowName] = {
                         time: 0,
-                        category: getCategory(active_url),
+                        category: getCategory(lastActiveApp.windowName),
+                        domain: active_url
                     };
                 }
-                appUsageData[formattedDate].apps[active_url].time += timeSpent;
+
+                appUsageData[formattedDate].apps[lastActiveApp.windowName].time += timeSpent;
+
             }
         }
         lastActiveApp = currentWindow;
@@ -106,6 +117,8 @@ async function updateAppUsage() {
     } catch (error) {
         console.error('Error updating app usage:', error);
     }
+
+    console.log("last app ", lastActiveApp)
 }
 
 async function getChromePid() {
@@ -122,15 +135,24 @@ async function getChromePid() {
 }
 
 function getCategory(app) {
-    for (const category in APP_CATEGORIES) {
-        if (APP_CATEGORIES.hasOwnProperty(category)) {
-            if (APP_CATEGORIES[category].apps.includes(app)) {
-
+    const title = app.toLowerCase();
+    for (const [category, details] of Object.entries(APP_CATEGORIES)) {
+        for (const app of details.apps) {
+            if (title.includes(app.toLowerCase())) {
                 return category;
             }
         }
     }
-    return 'Miscellaneous';
+
+    for (const [category, details] of Object.entries(APP_CATEGORIES)) {
+        for (const keyword of details.keywords) {
+            if (title.includes(keyword)) {
+                return category;
+            }
+        }
+    }
+
+    return "Miscellaneous";
 }
 
 function getCategoryColor(cat) {
@@ -163,10 +185,8 @@ function getCategoryAppsData(date) {
 
 }
 
-const result = getCategoryAppsData(formattedDate)
 
-console.log("result --- ---", result)
-setInterval(updateAppUsage, 5000);
+setInterval(updateAppUsage, 10000);
 setInterval(saveData, 60000);
 
 contextBridge.exposeInMainWorld('activeWindow', {
@@ -193,15 +213,8 @@ function getFormattedStats(date) {
 
 }
 
-async function get_Active_Window() {
-    try {
-        const result = await activeWindows().getActiveWindow();
-        return result;
-    } catch (error) {
-        console.error('Error fetching active window:', error);
-        return null;
-    }
-}
+
+
 
 function loadData() {
     try {
@@ -220,15 +233,6 @@ function saveData() {
     });
 }
 
-
-ipcRenderer.on('dismiss-popup-reply', (event, appName) => {
-    const index = Distracted_apps.indexOf(appName);
-    console.log("App ----", Distracted_apps)
-    if (index > -1) {
-        Distracted_apps.splice(index, 1);
-        console.log(`${appName} removed from Distracted_apps list`);
-    }
-});
 
 
 ipcRenderer.on('cooldown', (event) => {
